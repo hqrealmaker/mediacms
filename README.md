@@ -12,7 +12,7 @@ It is built mostly using the modern stack Django + React and includes a REST API
 
 A demo is available at https://demo.mediacms.io
 
-
+c
 ## Screenshots
 
 <p align="center">
