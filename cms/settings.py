@@ -401,7 +401,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": os.getenv("PGDATABASE"),
-        "HOST": os.getenv("PGHOST"),
+        "HOST": "Postgres-eSSW",
         "PORT": os.getenv("PGPORT"),
         "USER": os.getenv("PGUSER"),
         "PASSWORD": os.getenv("PGPASSWORD"),
