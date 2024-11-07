@@ -2,6 +2,14 @@ import os
 
 from celery.schedules import crontab
 from django.utils.translation import gettext_lazy as _
+import logging
+logging.basicConfig(level=logging.DEBUG)
+
+logging.debug("Database Name: %s", os.getenv("PGDATABASE"))
+logging.debug("Database Host: %s", os.getenv("PGHOST"))
+logging.debug("Database Port: %s", os.getenv("PGPORT"))
+logging.debug("Database User: %s", os.getenv("PGUSER"))
+logging.debug("Database Password: %s", os.getenv("PGPASSWORD"))
 
 DEBUG = False
 
