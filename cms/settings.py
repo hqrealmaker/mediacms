@@ -395,7 +395,7 @@ LOGGING = {
         },
     },
 }
-
+print("DATABASE CONFIG:", os.getenv("PGDATABASE"), os.getenv("PGHOST"), os.getenv("PGPORT"), os.getenv("PGUSER"), os.getenv("PGPASSWORD"))
 DATABASES = {
     DATABASES = {
     "default": {
