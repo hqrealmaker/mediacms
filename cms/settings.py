@@ -397,14 +397,16 @@ LOGGING = {
 }
 
 DATABASES = {
+    DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "railway",
-        "HOST": "postgres-essw.railway.internal",
-        "PORT": "5432",
-        "USER": "postgres",
-        "PASSWORD": "mabaOYfZjlpnUJvMnGgxTAdFgzOfuXxx",
+        "NAME": os.getenv("PGDATABASE"),
+        "HOST": os.getenv("PGHOST"),
+        "PORT": os.getenv("PGPORT"),
+        "USER": os.getenv("PGUSER"),
+        "PASSWORD": os.getenv("PGPASSWORD"),
     }
+}
 }
 
 
