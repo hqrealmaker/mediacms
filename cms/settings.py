@@ -399,11 +399,11 @@ LOGGING = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "mediacms",
-        "HOST": "127.0.0.1",
+        "NAME": "railway",
+        "HOST": "postgres-essw.railway.internal",
         "PORT": "5432",
-        "USER": "mediacms",
-        "PASSWORD": "mediacms",
+        "USER": "postgres",
+        "PASSWORD": "mabaOYfZjlpnUJvMnGgxTAdFgzOfuXxx",
     }
 }
 
